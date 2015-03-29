@@ -44,6 +44,10 @@ android {
             //signingConfig signingConfigs.releaseSigning
         }
     }
+    lintOptions {
+          abortOnError false
+    }
+
 }
 
 dependencies {
